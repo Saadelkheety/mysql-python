@@ -1,4 +1,4 @@
-# mysql-python
+# mysql || Mariadb with python 
 ## Guidelines
   - Do not hardcode the values needed to connect and log into the databas
   - Any application that accepts input must expect to handle bad data  - “SQL injection” attack -.
@@ -12,6 +12,9 @@
   sudo apt-get install python3.6-dev 
   sudo apt-get install mysql-client
   sudo apt-get install libsqlclient-dev libmysqld-dev
+  sudo apt-get libmariadbd-dev
+  sudo apt-get libmariadb-dev
+  sudo apt-get libmysqlclient-dev
   sudo apt-get install libssl-dev
   
   pip3 install mysqlclient
