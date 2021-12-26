@@ -12,6 +12,9 @@
   sudo apt-get install python3.6-dev 
   sudo apt-get install mysql-client
   sudo apt-get install libsqlclient-dev libmysqld-dev
+  ```
+  For mariadb:
+  ```
   sudo apt-get libmariadbd-dev
   sudo apt-get libmariadb-dev
   sudo apt-get libmysqlclient-dev
